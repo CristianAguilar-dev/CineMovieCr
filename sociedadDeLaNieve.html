@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociedad de la Nieve</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <div class=" overlay overlay2"></div>
+        <div class="overlay_side_navabar"></div>
+        <div class="sidenav_container_movieDetail">
+            <div class="sidenav_child_container">
+                <nav class="sidenav sidenav_2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#ffff" class="arrow_left bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>
+                    </svg>
+                    <h3 class="title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CINE</font></font></h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="hamburger bi-list" viewBox="0 0 16 16">
+                        <path class="pathh pathhphone" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                    </svg>
+                    <div class="menu">
+                        <h4 class="menu_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Menú</font></font></h4>
+                        <ul class="menu_ul">
+                            <li class="home">
+                                <a class="sidenavlinks" href="./index.html"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                        <path class="path" fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
+                                        <path class="path" fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
+                                    </svg><span class="Home_title title_span"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hogar</font></font></span></a>
+                            </li>
+                            <li class="movie">
+                                <a class="sidenavlinks" href="./moviesGenre.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                        <path class="path" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
+                                    </svg>
+                                    <span class="movie_name title_span"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Películas</font></font></span></a>
+                            </li>
+                            <li class="tv_shows">
+                                <a class="sidenavlinks" href="./tvShows.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-tv-fill" viewBox="0 0 16 16">
+                                        <path class="path" d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM2 2h12s2 0 2 2v6s0 2-2 2H2s-2 0-2-2V4s0-2 2-2z"></path>
+                                    </svg>
+                                    <span class="tv_shows_title title_span"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Espectáculos</font></font></span></a>
+                            </li>
+                            <li class="settings">
+                                <a class="sidenavlinks" href="./About.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+                                        <path class="path" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"></path>
+                                    </svg><span class="settings_title title_span"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acerca de</font></font></span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <section class="section_one section_one_movieDetail">
+            <div class="nav_paremt_conatainer movieDetailnav_paremt_conatainer">
+                <nav class="navContainer movieDetailnavContainer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="hamburger hamburgerphone bi-list" viewBox="0 0 16 16">
+                        <path class="pathh" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                    </svg>
+                    <input class="search" type="text" placeholder="Buscar">
+                    <div class="light_darkmode"></div>
+                </nav>
+            </div>
+            <section class="section_two section_two2">
+                <div class="posterbig"><img class="poster_big_img" src="https://image.tmdb.org/t/p/original//vdpE5pjJVql5aD6pnzRqlFmgxXf.jpg" alt=""></div>
+                <div class="poster_big">
+                    <div class="gradient"></div>
+                    <div class="line"></div>
+                </div>
+                <section class="movie_details"><div class="movie_details">
+<img class="movie_details_poster" src="https://image.tmdb.org/t/p/w500//k7rEpZfNPB35FFHB00ZhXHKTL7X.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" alt="título">
+<div class="movie_details_about">
+    <h2 class="movie_details_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sociedad de la nieve</font></font></h2>
+    <div class="movie_details_about_category">
+        <ul class="movie_details_about_category_ul">
+        <li class="movie_details_category_ul_li"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Drama</font></font></li><li class="movie_details_category_ul_li"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Historia</font></font></li>
+        </ul>
+    </div>
+    <div class="date_rating">
+        <p class="time"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">144 minutos</font></font></p><span class="dot dot2"></span>
+        <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023-12-13</font></font></p><span class="dot dot2"></span>
+        <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8.1</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                </svg></span></p>
+    </div>
+    <div class="playButtonContainer"> 
+        <span> <a class="GoogleButton" href="https://www.google.com/search?q=Society of the Snow (2023)" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">¡Buscalo en Google!</font></font></a> </span> 
+        </div>
+        
+</div>
+
+</div> </section>
+                <section class="section_story"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El 13 de octubre de 1972, el vuelo 571 de la Fuerza Aérea Uruguaya, fletado para llevar un equipo de rugby a Chile, se estrella contra un glaciar en el corazón de los Andes.</font></font></section>
+                <section class="Trailer_section"><iframe class="youtubePlayer" src="https://autoembed.to/trailer/movie/906126" width="100%" height="100%" loading="lazy" frameborder="0" allowfullscreen=""></iframe></section>
+                <section class=" Now_playing_movies_container Now_playing_movies_container_movieDetail" id="cast_con">
+                    <h4 class="Now_playing_movies_container_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Elenco</font></font></h4>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="leftarrow arrowbtn bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="rightarrow arrowbtn bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                    <div class="Casdiv">
+                    <div class="Now_playing_movies castdiv" style="transform: translateX(0%);">
+<a class="posterlink" href="./personDetail.html?id=3301646"> <img class="poster" data-id="3301646" src="https://image.tmdb.org/t/p/w500//l8qPdDiAfdE96pUDPlHb0gf7DZW.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Enzo Vogrincic"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enzo Vogrincic</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Numa Turcatti
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(115%);">
+<a class="posterlink" href="./personDetail.html?id=1769529"> <img class="poster" data-id="1769529" src="https://image.tmdb.org/t/p/w500//kjfxwOILQDoL7eThSNvxedoZK3m.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Agustín Pardella"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agustín Pardella</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Fernando 'Nando' Parrado
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(230%);">
+<a class="posterlink" href="./personDetail.html?id=2446476"> <img class="poster" data-id="2446476" src="https://image.tmdb.org/t/p/w500//4VjjKw3Jzue37Y8Tm0hSWEWW1e2.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Matías Recalt"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Matías Recalt</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Roberto Canessa
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(345%);">
+<a class="posterlink" href="./personDetail.html?id=1187534"> <img class="poster" data-id="1187534" src="https://image.tmdb.org/t/p/w500//rC9w1ZNpIxkHpnYQi7QbYXjPbqm.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Diego Vegezzi"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Diego Vegezzi</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Marcelo Pérez del Castillo.
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(460%);">
+<a class="posterlink" href="./personDetail.html?id=3251453"> <img class="poster" data-id="3251453" src="https://image.tmdb.org/t/p/w500//jMZq2uRXBBaXGG060MdyjueUfJI.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Esteban Kukuriczka"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esteban Kukuriczka</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Adolfo 'Fito' Strauch
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(575%);">
+<a class="posterlink" href="./personDetail.html?id=2348658"> <img class="poster" data-id="2348658" src="https://image.tmdb.org/t/p/w500//nbGMWqykn203hKxZCdFxHKoNbkU.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="francisco romero"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">francisco romero</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Daniel Fernández Strauch
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(690%);">
+<a class="posterlink" href="./personDetail.html?id=1350179"> <img class="poster" data-id="1350179" src="https://image.tmdb.org/t/p/w500//ig2mTx7y547vhHfkuL73EwmkJBS.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Rafael Federman"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rafael Federman</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Eduardo StrauchUrioste
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(805%);">
+<a class="posterlink" href="./personDetail.html?id=2709426"> <img class="poster" data-id="2709426" src="https://image.tmdb.org/t/p/w500//hnPjpV486QF01B8f7ibw9IM8EEU.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Felipe González Otaño"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Felipe González Otaño</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Carlitos Páez
+         </font></font></div>
+         </div>
+     </div><div class="Now_playing_movies castdiv" style="transform: translateX(920%);">
+<a class="posterlink" href="./personDetail.html?id=3330824"> <img class="poster" data-id="3330824" src="https://image.tmdb.org/t/p/w500//givwCtNlqBxPpOwB7LxDWjtbZqX.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Agustín Della Corte"></a>
+    <div class="name_character_container">
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Agustín Della Corte</font></font></p>
+     <div class="date_rating casteecharacter"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+     Antonio 'Tintín' Vizintín
+         </font></font></div>
+         </div>
+     </div></div>
+                </section>
+                <section class=" Now_playing_movies_container Now_playing_movies_container_movieDetail" id="nowplayin">
+                    <h4 class="Now_playing_movies_container_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ahora reproduciendo películas</font></font></h4>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="leftarrow arrowbtn bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="rightarrow arrowbtn bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                    <div class="Now_playing_movies_div Now_playing_movies_div_movieDetail">
+                    <div class="Now_playing_movies" style="transform: translateX(0%);">
+<a class="posterlink" href="./movieDetail.html?id=1029575"> <img class="poster" data-id="1029575" src="https://image.tmdb.org/t/p/w500//jLLtx3nTRSLGPAKl4RoIv1FbEBr.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="El plan familiar"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El plan familiar</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(115%);">
+<a class="posterlink" href="./movieDetail.html?id=848326"> <img class="poster" data-id="848326" src="https://image.tmdb.org/t/p/w500//ui4DrH1cKk2vkHshcUcGt2lKxCm.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Luna Rebelde - Primera parte: Un niño de fuego"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Luna Rebelde - Primera parte: Un niño de fuego</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.474</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(230%);">
+<a class="posterlink" href="./movieDetail.html?id=695721"> <img class="poster" data-id="695721" src="https://image.tmdb.org/t/p/w500//mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Los juegos del hambre: la balada de pájaros cantores y serpientes"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Los juegos del hambre: la balada de pájaros cantores y serpientes</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.235</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(345%);">
+<a class="posterlink" href="./movieDetail.html?id=891699"> <img class="poster" data-id="891699" src="https://image.tmdb.org/t/p/w500//tlcuhdNMKNGEVpGqBZrAaOOf1A6.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Noche silenciosa"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Noche silenciosa</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.875</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(460%);">
+<a class="posterlink" href="./movieDetail.html?id=572802"> <img class="poster" data-id="572802" src="https://image.tmdb.org/t/p/w500//8xV47NDrjdZDpkVcCFqkdHa3T0C.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Aquaman y el reino perdido"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aquaman y el reino perdido</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.507</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(575%);">
+<a class="posterlink" href="./movieDetail.html?id=1071215"> <img class="poster" data-id="1071215" src="https://image.tmdb.org/t/p/w500//f5f3TEVst1nHHyqgn7Z3tlwnBIH.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Acción de gracias"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Acción de gracias</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.678</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(690%);">
+<a class="posterlink" href="./movieDetail.html?id=1131755"> <img class="poster" data-id="1131755" src="https://image.tmdb.org/t/p/w500//ikQG3byEFyfwcnF0zmyNtXTmr5v.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Una criatura se movía"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Una criatura se movía</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.292</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(805%);">
+<a class="posterlink" href="./movieDetail.html?id=1143183"> <img class="poster" data-id="1143183" src="https://image.tmdb.org/t/p/w500//ru1i4ZR11lPPVArk3fOcO1VCOlD.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Rebobinar"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Rebobinar</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2024</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.3</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(920%);">
+<a class="posterlink" href="./movieDetail.html?id=897087"> <img class="poster" data-id="897087" src="https://image.tmdb.org/t/p/w500//7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Lanza libre"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lanza libre</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.491</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1035%);">
+<a class="posterlink" href="./movieDetail.html?id=787699"> <img class="poster" data-id="787699" src="https://image.tmdb.org/t/p/w500//qhb1qOilapbapxWQn9jtRCMwXJF.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Wonka"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wonka</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.103</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1150%);">
+<a class="posterlink" href="./movieDetail.html?id=807172"> <img class="poster" data-id="807172" src="https://image.tmdb.org/t/p/w500//qVKirUdmoex8SdfUk8WDDWwrcCh.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="El exorcista: creyente"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El exorcista: creyente</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.2</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1265%);">
+<a class="posterlink" href="./movieDetail.html?id=901362"> <img class="poster" data-id="901362" src="https://image.tmdb.org/t/p/w500//bkpPTZUdq31UGDovmszsg2CchiI.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Los trolls se unen"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Los trolls se unen</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.176</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1380%);">
+<a class="posterlink" href="./movieDetail.html?id=520758"> <img class="poster" data-id="520758" src="https://image.tmdb.org/t/p/w500//exNtEY8QUuQh9e23wSQjkPxKIU3.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Chicken Run: El amanecer de la pepita"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Chicken Run: El amanecer de la pepita</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.254</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1495%);">
+<a class="posterlink" href="./movieDetail.html?id=940721"> <img class="poster" data-id="940721" src="https://image.tmdb.org/t/p/w500//hkxxMIGaiCTmrEArK7J56JTKUlB.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Godzilla menos uno"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Godzilla menos uno</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1610%);">
+<a class="posterlink" href="./movieDetail.html?id=1008042"> <img class="poster" data-id="1008042" src="https://image.tmdb.org/t/p/w500//kdPMUMJzyYAc4roD52qavX0nLIC.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Háblame"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Háblame</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.201</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1725%);">
+<a class="posterlink" href="./movieDetail.html?id=906126"> <img class="poster" data-id="906126" src="https://image.tmdb.org/t/p/w500//k7rEpZfNPB35FFHB00ZhXHKTL7X.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Sociedad de la nieve"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sociedad de la nieve</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">8.126</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1840%);">
+<a class="posterlink" href="./movieDetail.html?id=940551"> <img class="poster" data-id="940551" src="https://image.tmdb.org/t/p/w500//ldfCF9RhR40mppkzmftxapaHeTo.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Migración"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Migración</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.324</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(1955%);">
+<a class="posterlink" href="./movieDetail.html?id=853387"> <img class="poster" data-id="853387" src="https://image.tmdb.org/t/p/w500//eCNJuGsCNdf2yf4F3UcDg1WZTbo.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Señor del desgobierno"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Señor del desgobierno</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.8</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(2070%);">
+<a class="posterlink" href="./movieDetail.html?id=945937"> <img class="poster" data-id="945937" src="https://image.tmdb.org/t/p/w500//w0rYX6dDvcz1ASO4MAKPviaAj2x.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Charlie rápido"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Charlie rápido</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.194</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies" style="transform: translateX(2185%);">
+<a class="posterlink" href="./movieDetail.html?id=466420"> <img class="poster" data-id="466420" src="https://image.tmdb.org/t/p/w500//dB6Krk806zeqd0YNp2ngQ9zXteH.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Asesinos de la luna flor"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Asesinos de la luna flor</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.534</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div></div>
+                </section>
+                <section class=" Now_playing_movies_container Now_playing_movies_container_movieDetail similar_movies_container" id="Similarovie">
+                    <h4 class="Now_playing_movies_container_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Películas similares</font></font></h4>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="leftarrow arrowbtn bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="rightarrow arrowbtn bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                    <div class="Now_playing_movies_div Now_playing_movies_div_movieDetail Similar_movies_div">
+                    <div class="Now_playing_movies similarMovies" style="transform: translateX(0%);">
+<a class="posterlink" href="./movieDetail.html?id=207821"> <img class="poster" data-id="207821" src="https://image.tmdb.org/t/p/w500//kybYVtJk4g4yAWzVQh7CkaZSvd9.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Lil Tokio Reportero"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lil Tokio Reportero</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2012</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(115%);">
+<a class="posterlink" href="./movieDetail.html?id=510943"> <img class="poster" data-id="510943" src="https://image.tmdb.org/t/p/w500//x14LxTUawJyX1ir7XfYCFC6TtSG.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Kuolema de Kissan"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kuolema de Kissan</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1994</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(230%);">
+<a class="posterlink" href="./movieDetail.html?id=2742"> <img class="poster" data-id="2742" src="https://image.tmdb.org/t/p/w500//u01kh5jKUWjhom76mguRqUgdvja.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="almuerzo desnudo"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">almuerzo desnudo</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1991</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.0</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(345%);">
+<a class="posterlink" href="./movieDetail.html?id=2748"> <img class="poster" data-id="2748" src="https://image.tmdb.org/t/p/w500//tjli2Rjwkn8fivuynxwthnnEzeo.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Viaje a Italia"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Viaje a Italia</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1954</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.3</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(460%);">
+<a class="posterlink" href="./movieDetail.html?id=2750"> <img class="poster" data-id="2750" src="https://image.tmdb.org/t/p/w500//8f50NQ1wz6hdxfCISCPV8XQ6DII.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Gente de fiesta las 24 horas"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gente de fiesta las 24 horas</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2002</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.9</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(575%);">
+<a class="posterlink" href="./movieDetail.html?id=2757"> <img class="poster" data-id="2757" src="https://image.tmdb.org/t/p/w500//ffEmHQAiD0m5dEQ6rlsuA9vlllW.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Adaptación."></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Adaptación.</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2002</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.3</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(690%);">
+<a class="posterlink" href="./movieDetail.html?id=2501"> <img class="poster" data-id="2501" src="https://image.tmdb.org/t/p/w500//aP8swke3gmowbkfZ6lmNidu0y9p.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="La identidad Bourne"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La identidad Bourne</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2002</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(805%);">
+<a class="posterlink" href="./movieDetail.html?id=2502"> <img class="poster" data-id="2502" src="https://image.tmdb.org/t/p/w500//7IYGiDrquvX3q7e9PV6Pejs6b2g.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="La supremacía de Bourne"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La supremacía de Bourne</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2004</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.3</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(920%);">
+<a class="posterlink" href="./movieDetail.html?id=2503"> <img class="poster" data-id="2503" src="https://image.tmdb.org/t/p/w500//15rMz5MRXFp7CP4VxhjYw4y0FUn.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="El ultimátum de Bourne"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El ultimátum de Bourne</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2007</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1035%);">
+<a class="posterlink" href="./movieDetail.html?id=2516"> <img class="poster" data-id="2516" src="https://image.tmdb.org/t/p/w500//yI1Aoy79FyWdqwekiV765lNjYh6.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="La casa de nuestra madre"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La casa de nuestra madre</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1967</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.1</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1150%);">
+<a class="posterlink" href="./movieDetail.html?id=2528"> <img class="poster" data-id="2528" src="https://image.tmdb.org/t/p/w500//cBJtWAgDTCqxNJJOZjnRSh5Vxa5.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Señora Bovary"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Señora Bovary</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1991</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.2</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1265%);">
+<a class="posterlink" href="./movieDetail.html?id=2604"> <img class="poster" data-id="2604" src="https://image.tmdb.org/t/p/w500//k5HfnMgaREHDNA7CugiETCb9ItM.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Nacido el cuatro de julio"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nacido el cuatro de julio</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1989</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.0</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1380%);">
+<a class="posterlink" href="./movieDetail.html?id=2637"> <img class="poster" data-id="2637" src="https://image.tmdb.org/t/p/w500//z2PiOTyjbCOnMHY2QJdq3I4jU44.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Las profecías del hombre polilla"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Las profecías del hombre polilla</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2002</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.1</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1495%);">
+<a class="posterlink" href="./movieDetail.html?id=2981"> <img class="poster" data-id="2981" src="https://image.tmdb.org/t/p/w500//411VnWtYJdEFKiaGqJOeTmBv8th.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="El mundo perdido"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">El mundo perdido</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1925</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">6.6</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1610%);">
+<a class="posterlink" href="./movieDetail.html?id=2998"> <img class="poster" data-id="2998" src="https://image.tmdb.org/t/p/w500//qjPeWUyBcAgM2OZSgk0icNExtWT.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Punta Zabriskie"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Punta Zabriskie</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1970</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.0</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1725%);">
+<a class="posterlink" href="./movieDetail.html?id=3009"> <img class="poster" data-id="3009" src="https://image.tmdb.org/t/p/w500//2o1oe54a4doiwB4uJq9Kx1RHal0.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="La prueba"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">La prueba</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1962</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1840%);">
+<a class="posterlink" href="./movieDetail.html?id=3019"> <img class="poster" data-id="3019" src="https://image.tmdb.org/t/p/w500//mZtQORzQWkCSqeeHApH6vJDA1D2.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Dr. Jekyll y Sr. Hyde"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dr. Jekyll y Sr. Hyde</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1931</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.2</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(1955%);">
+<a class="posterlink" href="./movieDetail.html?id=3035"> <img class="poster" data-id="3035" src="https://image.tmdb.org/t/p/w500//Oa981nT4Nqcq3drLjfH6voibc4.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="frankenstein"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">frankenstein</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1931</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">7.4</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(2070%);">
+<a class="posterlink" href="./movieDetail.html?id=3055"> <img class="poster" data-id="3055" src="https://image.tmdb.org/t/p/w500//rAaZtrlIorJ001yBM2XmcQQXwlH.jpg" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Valle de las Muñecas"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Valle de las Muñecas</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1967</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">5.9</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div><div class="Now_playing_movies similarMovies" style="transform: translateX(2185%);">
+<a class="posterlink" href="./movieDetail.html?id=1097764"> <img class="poster" data-id="1097764" src="https://image.tmdb.org/t/p/w500/null" onerror="this.onerror=null;this.src='./resources/D moviesand tv show.png';" loading="lazy" alt="Pustý dvor"></a>
+     <p class="movie_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pustý dvor</font></font></p>
+     <div class="date_rating">
+         <p class="date"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1979</font></font></p><span class="dot dot2"></span>
+         <p class="rating"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">0</font></font><span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="Yellow" class="star bi-star-fill" viewBox="0 0 16 16">
+                     <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"></path>
+                 </svg></span></p>
+         <div class="category"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Película</font></font></div>
+         </div>
+     </div></div>
+                </section>
+                <section class=" Now_playing_movies_container Now_playing_movies_container_movieDetail reccomendation movie" id="recommenn" style="display: none;">
+                    <h4 class="Now_playing_movies_container_title"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recomendación</font></font></h4>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="leftarrow arrowbtn bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="rightarrow arrowbtn bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                    </svg>
+                    <div class="Now_playing_movies_div Now_playing_movies_div_movieDetail recommendation_movies_div">
+                    </div>
+                </section>
+            </section>
+        </section>
+
+    </main>
+</body>
+</html>
