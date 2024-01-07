@@ -1,0 +1,1 @@
+Cine Movie CR Web: Descubre un universo cinematográfico único directamente desde tu navegador. Disfruta de películas y series con una interfaz intuitiva y una experiencia envolvente. Explora, crea listas personalizadas y vive el cine en cualquier lugar con Cine Movie CR Web.
