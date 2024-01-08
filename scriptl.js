@@ -74,12 +74,11 @@ overlaySideNavabar.addEventListener("click", function () {
   document.body.classList.remove("minimize_siderbar");
 });
 
-const myApi = "6b2dec73b6697866a50cdaef60ccffcb";
+const myApi = "4c34cd2f28d101a64726730cfa293e08";
 
 const NowPlaying = async () => {
   const res = await fetch(
-    "https://api.themoviedb.org/3/movie/now_playing?api_key=680c99274ddab12ffac27271d9445d45&language=en-US&page=1"
-  );
+    `https://api.themoviedb.org/3/movie/now_playing?api_key=${myApi}`);
   const data = await res.json();
   const NowPlayingmovies = data.results;
   return NowPlayingmovies;
@@ -87,7 +86,7 @@ const NowPlaying = async () => {
 
 const TodayTrending = async () => {
   const res = await fetch(
-    "https://api.themoviedb.org/3/trending/all/day?api_key=6b2dec73b6697866a50cdaef60ccffcb"
+    `https://api.themoviedb.org/3/movie/now_playing?api_key=${myApi}`
   );
   const data = await res.json();
   const trendingtoday = data.results;
@@ -96,7 +95,7 @@ const TodayTrending = async () => {
 
 const popularnow = async () => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/popular?api_key=${myApi}&language=en-US&page=1`
+    `https://api.themoviedb.org/3/movie/now_playing?api_key=${myApi}`
   );
   const data = await res.json();
   const popularnowmovies = data.results;
@@ -104,7 +103,7 @@ const popularnow = async () => {
 };
 const Toprated = async () => {
   const res = await fetch(
-    `https://api.themoviedb.org/3/movie/top_rated?api_key=${myApi}&language=en-US&page=1`
+    `https://api.themoviedb.org/3/movie/now_playing?api_key=${myApi}`
   );
   const data = await res.json();
 
